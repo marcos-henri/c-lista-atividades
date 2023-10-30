@@ -1,0 +1,52 @@
+1-8: Marcos Henrique:
+    1) Elabore um programa em C que leia uma sequência de números e a cada número lido informe em tela se o mesmo é maior do que 100, menor do que 10, ou igual a 20, 30 e 40 e finalize o processamento quando o número lido for nulo e informando ao final a quantidade de números lidos e a quantidade de números lidos em cada uma das categorias de seleção.
+
+    2) Elabore um programa em C que leia uma sequência de números finalizando o processamento quando o número lido for “99” ou zero ou “14” e que calcule:
+
+        a) a soma dos números lidos menores do que 150 e maiores do que 50;
+
+        b) o produto de números lidos que sejam concomitantemente diferentes de 10, maiores do que 5 e menores do 70;
+
+        c) a média dos números lidos;
+
+        d) o produto dos números lidos maiores do que 20 e menores do que 30;
+
+        e) a soma dos quadrados dos números lidos maiores do que 16;
+
+    3) Elabore um programa em C que leia todos os números digitados e imprima a soma dos números lidos finalizando o processamento quando o número lido for zero e informando a quantidade de números lidos.
+
+    4) Elabore um programa em C que informe se um número é ou não primo finalizando o processamento quando o número lido for zero e indicando a quantidade de números primos encontrados.
+
+    5) Elabore um programa em C que leia todos os números digitados e imprima a soma e o produto dos números lidos que sejam concomitantemente maiores do que 2 e menores do que 100 e diferentes de 10, 20 e 32 e finalizando o processamento quando o número lido for zero e informando o produto de todos os números lidos.
+
+    6) Elabore um programa em C que leia todos os números digitados e imprima o produto dos números cujo valor seja igual à sua ordem de digitação bem como a soma dos quadrados de todos os números lidos finalizando o processamento quando o número lido for zero.
+
+    7) Elabore um programa em C que leia uma sequência de ternos de números e suponha serem coeficientes de uma equação do segundo grau (a, b, c) e com base nisso determine as raízes reais deSsa equação e a soma das duas raízes se as mesmas forem iguais, finalizando o processamento quando o terno de números for nulo e informando também a quantidade de raízes não reais (complexas).
+
+    8) Elabore um programa em C que leia uma sequência de ternos de números e suponha serem coeficientes de uma equação do segundo grau e com base nisso determine a soma das raizes reais dessa equação quando as mesmas forem maiores do que 5 e menores do que 10 e o seu produto quando as mesmas forem menores do que 2 e finalize o processamento quando as raízes forem nulas concomitantemente informando a quantidade de raízes em cada modalidade elencada bem como a quantidade de raízes complexas.
+
+
+9-16: Marcos vini.
+    9) Elabore um programa em C que leia um terno de notas de alunos bem como o seu nome e matrícula e imprima os nomes, notas e médias dos alunos com a informação da aprovação ou não (aprovado maior ou igual a 7,0) e finalize as leituras quando as notas lidas forem ao mesmo tempo nulas totalizando a média de notas da turma e a média global da turma.
+
+    10) Elabore um programa em C que leia a matrícula (de 4 dígitos) de um funcionário bem como o seu nome, total de horas trabalhadas e com base no valor da hora trabalhada de R$ 35,00 calcule o seu salário bruto, líquido(com uma contribuição de 8,5% para o INSS) e com uma contribuição sindical de 1,02% e de plano de saúde (previdenciário) de 6% finalizando o processamento quando a matrícula for nula e informando o total da folha de pagamento em análise, os totais de contribuição e dos respectivos encargos.
+
+    11) Elabore um programa em C que determine se um número inteiro positivo é par ou Ímpar e finalize o processamento quando o número lido for nulo sem utilizar o resto da divisão inteira.
+
+    12) Elabore um programa em C que determine se um número inteiro positivo é par ou ímpar ao finalizar, que ocorrerá quando o número lido for nulo, imprima a soma dos números pares e o produto dos números ímpares bem como a soma de todos os números lidos.
+
+    13) Elabore um programa em C que determine o maior dos números lidos e finalize o processamento quando o número lido for nulo.
+
+    14) Elabore um programa em C que determine o menor dos números lidos e finalize processamento quando o número lido for nulo determinando a soma de todos os números lidos maiores do que 10 e o produto dos números lidos maiores do que 200.
+
+    15) Calcule a média, a soma dos quadrados, o produto dos cubos de todos os números lidos bem como proceda a impressão em tela dos números lidos maiores do que 200 e finalize o processamento quando o número lido for nulo processando apenas após a digitação de todos os números lidos
+
+17-24: Marcell Henrique 
+
+    21) Elabore um programa em C que leia uma sequência de números e imprima os mesmos na ordem crescente e na ordem decrescente e finalize o processamento quando o número lido for nulo.
+
+25-32: Luiz Henrique 
+
+
+33-40: Manoel
+
