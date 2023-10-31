@@ -1,7 +1,9 @@
 1-8: Marcos Henrique:
-    1) Elabore um programa em C que leia uma sequência de números e a cada número lido informe em tela se o mesmo é maior do que 100, menor do que 10, ou igual a 20, 30 e 40 e finalize o processamento quando o número lido for nulo e informando ao final a quantidade de números lidos e a quantidade de números lidos em cada uma das categorias de seleção.
+    1) 
+        Elabore um programa em C que leia uma sequência de números e a cada número lido informe em tela se o mesmo é maior do que 100, menor do que 10, ou igual a 20, 30 e 40 e finalize o processamento quando o número lido for nulo e informando ao final a quantidade de números lidos e a quantidade de números lidos em cada uma das categorias de seleção.
 
-    2) Elabore um programa em C que leia uma sequência de números finalizando o processamento quando o número lido for “99” ou zero ou “14” e que calcule:
+    2) 
+        Elabore um programa em C que leia uma sequência de números finalizando o processamento quando o número lido for “99” ou zero ou “14” e que calcule:
 
         a) a soma dos números lidos menores do que 150 e maiores do que 50;
 
@@ -13,17 +15,23 @@
 
         e) a soma dos quadrados dos números lidos maiores do que 16;
 
-    3) Elabore um programa em C que leia todos os números digitados e imprima a soma dos números lidos finalizando o processamento quando o número lido for zero e informando a quantidade de números lidos.
+    3) 
+        Elabore um programa em C que leia todos os números digitados e imprima a soma dos números lidos finalizando o processamento quando o número lido for zero e informando a quantidade de números lidos.
 
-    4) Elabore um programa em C que informe se um número é ou não primo finalizando o processamento quando o número lido for zero e indicando a quantidade de números primos encontrados.
+    4) 
+        Elabore um programa em C que informe se um número é ou não primo finalizando o processamento quando o número lido for zero e indicando a quantidade de números primos encontrados.
 
-    5) Elabore um programa em C que leia todos os números digitados e imprima a soma e o produto dos números lidos que sejam concomitantemente maiores do que 2 e menores do que 100 e diferentes de 10, 20 e 32 e finalizando o processamento quando o número lido for zero e informando o produto de todos os números lidos.
+    5) 
+        Elabore um programa em C que leia todos os números digitados e imprima a soma e o produto dos números lidos que sejam concomitantemente maiores do que 2 e menores do que 100 e diferentes de 10, 20 e 32 e finalizando o processamento quando o número lido for zero e informando o produto de todos os números lidos.
 
-    6) Elabore um programa em C que leia todos os números digitados e imprima o produto dos números cujo valor seja igual à sua ordem de digitação bem como a soma dos quadrados de todos os números lidos finalizando o processamento quando o número lido for zero.
+    6) 
+        Elabore um programa em C que leia todos os números digitados e imprima o produto dos números cujo valor seja igual à sua ordem de digitação bem como a soma dos quadrados de todos os números lidos finalizando o processamento quando o número lido for zero.
 
-    7) Elabore um programa em C que leia uma sequência de ternos de números e suponha serem coeficientes de uma equação do segundo grau (a, b, c) e com base nisso determine as raízes reais deSsa equação e a soma das duas raízes se as mesmas forem iguais, finalizando o processamento quando o terno de números for nulo e informando também a quantidade de raízes não reais (complexas).
+    7) 
+        Elabore um programa em C que leia uma sequência de ternos de números e suponha serem coeficientes de uma equação do segundo grau (a, b, c) e com base nisso determine as raízes reais deSsa equação e a soma das duas raízes se as mesmas forem iguais, finalizando o processamento quando o terno de números for nulo e informando também a quantidade de raízes não reais (complexas).
 
-    8) Elabore um programa em C que leia uma sequência de ternos de números e suponha serem coeficientes de uma equação do segundo grau e com base nisso determine a soma das raizes reais dessa equação quando as mesmas forem maiores do que 5 e menores do que 10 e o seu produto quando as mesmas forem menores do que 2 e finalize o processamento quando as raízes forem nulas concomitantemente informando a quantidade de raízes em cada modalidade elencada bem como a quantidade de raízes complexas.
+    8) 
+        Elabore um programa em C que leia uma sequência de ternos de números e suponha serem coeficientes de uma equação do segundo grau e com base nisso determine a soma das raizes reais dessa equação quando as mesmas forem maiores do que 5 e menores do que 10 e o seu produto quando as mesmas forem menores do que 2 e finalize o processamento quando as raízes forem nulas concomitantemente informando a quantidade de raízes em cada modalidade elencada bem como a quantidade de raízes complexas.
 
 
 9-16: Marcos vini.
