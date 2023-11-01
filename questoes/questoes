@@ -1,5 +1,5 @@
 1-8: Marcos Henrique:
-    1) 
+    1) OK
         Elabore um programa em C que leia uma sequência de números e a cada número lido informe em tela se o mesmo é maior do que 100, menor do que 10, ou igual a 20, 30 e 40 e finalize o processamento quando o número lido for nulo e informando ao final a quantidade de números lidos e a quantidade de números lidos em cada uma das categorias de seleção.
 
     2) 
@@ -15,7 +15,7 @@
 
         e) a soma dos quadrados dos números lidos maiores do que 16;
 
-    3) 
+    3) OK
         Elabore um programa em C que leia todos os números digitados e imprima a soma dos números lidos finalizando o processamento quando o número lido for zero e informando a quantidade de números lidos.
 
     4) 
