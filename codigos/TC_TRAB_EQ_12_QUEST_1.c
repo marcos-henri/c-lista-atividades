@@ -14,7 +14,7 @@ int main(){
 
     printf("Digite os números a serem lidos, diferentes de 0: \n");
     //loop para a leitura dos números
-    for(int i=0; i<100; i++){
+    for(int i=0; i<sizeof(nums)/sizeof(nums[0]); i++){
         scanf("%d", &nums[i]);
         if(nums[i]==0){
             printf("Número nulo (0) digitado, finalizando leitura\n");
