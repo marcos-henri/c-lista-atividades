@@ -14,10 +14,11 @@ int main(){
 
     printf("Digite os números a serem lidos, diferentes de 0: \n");
     //loop para a leitura dos números
-    for(int i=0; i<nums[i]; i++){
+    for(int i=0; i<100; i++){
         scanf("%d", &nums[i]);
         if(nums[i]==0){
-            printf("número nulo (0) digitado, finalizando leitura\n");
+            printf("Número nulo (0) digitado, finalizando leitura\n");
+            printf("=============================================\n");
             break;
         }
         if(nums[i] > 100){
@@ -45,32 +46,26 @@ int main(){
         }
         cont++;
     }
-        printf("%d ", cont);
-        printf(": Esta é a quantidade de números lidos: \n");
+        printf("Esta é a quantidade de números lidos: %d\n", cont);
 
         printf("=============================================\n");
 
-        printf("%d ", maiorQueCem);
-        printf(": Esta é a quantidade de números maiores que 100: \n");
+        printf("Esta é a quantidade de números maiores que 100: %d\n", maiorQueCem);
 
         printf("=============================================\n");
 
-        printf("%d ", menorQueDez);
-        printf(": Esta é a quantidade de números menores que 10: \n");
+        printf("Esta é a quantidade de números menores que 10: %d\n", menorQueDez);
 
         printf("=============================================\n");
 
-        printf("%d ", igualVinte);
-        printf(": Esta é a quantidade de vezes que o número 20 apareceu: \n");
-        
-        printf("=============================================\n");
-        
-        printf("%d ", igualTrinta);
-        printf(": Esta é a quantidade de vezes que o número 30 apareceu: \n");
+        printf("Esta é a quantidade de vezes que o número 20 apareceu: %d\n", igualVinte);
 
         printf("=============================================\n");
 
-        printf("%d ", igualQuarenta);
-        printf(": Esta é a quantidade de vezes que o número 40 apareceu: \n");
+        printf("Esta é a quantidade de vezes que o número 30 apareceu: %d\n", igualTrinta);
+
+        printf("=============================================\n");
+
+        printf("Esta é a quantidade de vezes que o número 40 apareceu: %d\n", igualQuarenta);
     return 0;
 }
