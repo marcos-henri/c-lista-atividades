@@ -36,9 +36,6 @@ int main(){
     x1 = ((-b) + sqrt(d)) / (2*a);
     x2 = ((-b) - sqrt(d)) / (2*a);
     printf("Os valores de x1 e x2 são, respectivamente: %f %f\n", x1, x2);
-    // if (x1!=0.0 || x2!=0){
-    //     contComplexo++;   
-    // }
     if (x1<0.0){
         printf("x1 é uma raíz complexa, %f\n", x1);
         contComplexo++;

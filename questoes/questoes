@@ -30,7 +30,7 @@
     7) 
         Elabore um programa em C que leia uma sequência de ternos de números e suponha serem coeficientes de uma equação do segundo grau (a, b, c) e com base nisso determine as raízes reais deSsa equação e a soma das duas raízes se as mesmas forem iguais, finalizando o processamento quando o terno de números for nulo e informando também a quantidade de raízes não reais (complexas).
 
-    8) 
+    8) OK
         Elabore um programa em C que leia uma sequência de ternos de números e suponha serem coeficientes de uma equação do segundo grau e com base nisso determine a soma das raizes reais dessa equação quando as mesmas forem maiores do que 5 e menores do que 10 e o seu produto quando as mesmas forem menores do que 2 e finalize o processamento quando as raízes forem nulas concomitantemente informando a quantidade de raízes em cada modalidade elencada bem como a quantidade de raízes complexas.
 
 
