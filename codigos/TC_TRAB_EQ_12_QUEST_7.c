@@ -48,9 +48,8 @@ int main(){
         soma=x1+x2;
         printf("A soma de x1 e x2 é: %f\n", soma);
     }
-    
+
     printf("================================\n");
     printf("Esta operação tem %d número(s) complexo(s)\n", contCompx);
     printf("Delta é: %d\n", delta);
-    //printf("a, b e c respectivamente %d %d %d", a, b, c);
 }

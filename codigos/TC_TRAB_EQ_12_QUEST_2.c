@@ -47,11 +47,14 @@ int main(){
     }
 
     printf("================================\n");
-    printf("%d \n", cont);
     printf("Resultado da soma dos números entre 50 e 150: %d \n", soma);
-    printf("Resultado da multiplicação dos números diferentes de 10 e entre 5 e 70: %d \n", mult);
     printf("Resultado da média dos números : %f \n", media);
-    printf("Resultado da multiplicação dos números entre 20 e 30: %d \n", prod20a30);
+    printf("Resultado da multiplicação dos números diferentes de 10 e entre 5 e 70: %d \n", mult);
+    if (prod20a30==1){
+        printf("Nenhum número entre 20 e 30 foi inserido\n");
+    }else{
+        printf("Resultado da multiplicação dos números entre 20 e 30: %d \n", prod20a30);
+    }
     printf("Resultado da soma do quadrado dos números maiores que 16: %d \n", somaQuad);
     return 0;   
 }
