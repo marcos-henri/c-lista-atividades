@@ -36,10 +36,18 @@ int main(){
     x1 = ((-b) + sqrt(d)) / (2*a);
     x2 = ((-b) - sqrt(d)) / (2*a);
     printf("Os valores de x1 e x2 são, respectivamente: %f %f\n", x1, x2);
-    if (x1!=0.0 || x2!=0){
-        contComplexo++;   
+    // if (x1!=0.0 || x2!=0){
+    //     contComplexo++;   
+    // }
+    if (x1<0.0){
+        printf("x1 é uma raíz complexa, %f\n", x1);
+        contComplexo++;
+    } else if (x2<0.0){
+        printf("x2 é uma raíz complexa, %f\n", x2);
+        contComplexo++;
     }
     
+    printf("================================\n");
     //OPERAÇÕES REQUERIDAS
     int contSoma=0, contMult=0;
     float somaRaizes=0, multRaizes=0;
@@ -57,7 +65,7 @@ int main(){
     }
     
     printf("================================\n");
-    printf("%d raíz(es) complexa(s)", contComplexo);
+    printf("%d raíz(es) complexa(s)\n", contComplexo);
     printf("%d raíz(es) entre 5 e 10\n", contSoma);
     printf("%d raíz(es) menores que 2\n", contMult);
 }
