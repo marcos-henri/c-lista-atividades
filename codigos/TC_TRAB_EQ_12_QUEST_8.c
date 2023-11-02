@@ -40,8 +40,10 @@ int main(){
         contComplexo++;   
     }
     
+    //OPERAÇÕES REQUERIDAS
     int contSoma=0, contMult=0;
     float somaRaizes=0, multRaizes=0;
+    
     //PARA X1
     if(x1>5 && x1<10 || x2>5 && x2<10){
         somaRaizes = x1+x2;
