@@ -21,13 +21,13 @@
     4) 
         Elabore um programa em C que informe se um número é ou não primo finalizando o processamento quando o número lido for zero e indicando a quantidade de números primos encontrados.
 
-    5) 
+    5) OK
         Elabore um programa em C que leia todos os números digitados e imprima a soma e o produto dos números lidos que sejam concomitantemente maiores do que 2 e menores do que 100 e diferentes de 10, 20 e 32 e finalizando o processamento quando o número lido for zero e informando o produto de todos os números lidos.
 
     6) 
         Elabore um programa em C que leia todos os números digitados e imprima o produto dos números cujo valor seja igual à sua ordem de digitação bem como a soma dos quadrados de todos os números lidos finalizando o processamento quando o número lido for zero.
 
-    7) 
+    7) OK
         Elabore um programa em C que leia uma sequência de ternos de números e suponha serem coeficientes de uma equação do segundo grau (a, b, c) e com base nisso determine as raízes reais deSsa equação e a soma das duas raízes se as mesmas forem iguais, finalizando o processamento quando o terno de números for nulo e informando também a quantidade de raízes não reais (complexas).
 
     8) OK
