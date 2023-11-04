@@ -24,7 +24,7 @@
     5) OK
         Elabore um programa em C que leia todos os números digitados e imprima a soma e o produto dos números lidos que sejam concomitantemente maiores do que 2 e menores do que 100 e diferentes de 10, 20 e 32 e finalizando o processamento quando o número lido for zero e informando o produto de todos os números lidos.
 
-    6) 
+    6) OK
         Elabore um programa em C que leia todos os números digitados e imprima o produto dos números cujo valor seja igual à sua ordem de digitação bem como a soma dos quadrados de todos os números lidos finalizando o processamento quando o número lido for zero.
 
     7) OK
