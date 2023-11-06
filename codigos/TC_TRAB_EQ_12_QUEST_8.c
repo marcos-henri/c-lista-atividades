@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <math.h>
 /*
-1- ler terno de numeros para equação do 2 grau OK
-1.1- resolução equação segundo grau OK
+1- ler termo de números para equação do 2° grau OK
+1.1- resolução equação 2° grau OK
     ax²+bx+c
     d=b²-4ac OK
     x=-b±Vd/2a OK
