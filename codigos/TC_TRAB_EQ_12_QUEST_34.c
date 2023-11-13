@@ -2,12 +2,13 @@
 
 int main(){
     int segundo, atemp, btemp, ctemp, dtemp, a = 0, b = 0, c = 0, d = 0, segundos[61];
+    //for escaneando os 60 segundos (e a velocidade inicial)
     for (int i = 0; i < 61; i++){
         printf("velocidade do segundo %d?: ", i);
         scanf(" %d", &segundo);
         segundos[i] = segundo; 
     }
-    //A
+    //A (Maior periodo de tempo que se deslocou sem diminuir a velocidade)
     for (int i = 0; i < 60; i++){
         if (segundos[i] <= segundos[i + 1]){
             ++atemp;
@@ -23,7 +24,7 @@ int main(){
     } else {
         printf("O maior periodo de tempo sem desacelerar foram %d segundos\n",a);
     }
-    //B
+    //B (Segundo em que teve a frenagem mais abrupta)
     for (int i = 0; i < 60; i++){
         if (segundos[i] - segundos[i + 1] > b){
             b = segundos[i] - segundos[i + 1];
@@ -31,7 +32,7 @@ int main(){
         }
     }
     printf("O segundo %d tem a frenagem mais abrupta de %d m/s\n",btemp + 1 ,b);
-    //C
+    //C (Maior aceleração e em qual instante ela iniciou)
     for (int i = 0; i < 60; i++){
         if (segundos[i + 1] - segundos[i] > c){
             c = segundos[i + 1] - segundos[i];
@@ -39,7 +40,7 @@ int main(){
         }
     }
     printf("O segundo %d tem a maior aceleração de %d m/s\n",ctemp + 1 ,c);
-    //D
+    //D (Maior periodo de tempo com velocidade constante)
     for (int i = 0; i < 60; i++){
         if (segundos[i] == segundos[i + 1]){
             dtemp++;
