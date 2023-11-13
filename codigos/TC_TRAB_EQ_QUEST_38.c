@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main(){
-    int max, num, soma;
-    //maxanho da matriz tridimencional
-    printf("maxanho do array tridimencional: ");
+    int max, num, soma = 0;
+    //tamanho da matriz tridimencional
+    printf("tamanho do array tridimencional: ");
     scanf(" %d", &max);
     int arr[max][max][max];
     //for determinando números dos elementos da matriz
@@ -21,25 +21,28 @@ int main(){
     for (int i = 0; i < max; i++){
         printf(" %d", arr[i][i][i]);
     }
-    //B) Soma das arestas
-    for (int i = 0; i < max; i++){
-        //horizontal
-        soma = soma + arr[0][0][i];
-        soma = soma + arr[0][max][i];
-        soma = soma + arr[max][0][i];
-        soma = soma + arr[max][max][i];
+    // B) Soma das arestas
+    for (int i = 0; i < max; i++) {
+        // horizontal
+        soma += arr[0][0][i];
+        soma += arr[0][max - 1][i];
+        soma += arr[max - 1][0][i];
+        soma += arr[max - 1][max - 1][i];
     }
-    //for precisa desconsiderar os numeros ja lidos das arestas horizontais
-    for (int i = 1; i < max - 1; i++){
-        //vertical
-        soma = soma + arr[0][i][0];
-        soma = soma + arr[0][i][max];
-        soma = soma + arr[max][i][0];
-        soma = soma + arr[max][i][max];
-        //profundidade
-        soma = soma + arr[i][0][0];
-        soma = soma + arr[i][0][max];
-        soma = soma + arr[i][max][0];
-        soma = soma + arr[i][max][max];
+
+    // vertical e profundidade
+    for (int i = 1; i < max - 1; i++) {
+        // vertical
+        soma += arr[i][0][0];
+        soma += arr[i][0][max - 1];
+        soma += arr[i][max - 1][0];
+        soma += arr[i][max - 1][max - 1];
+
+        // profundidade
+        soma += arr[0][i][0];
+        soma += arr[0][i][max - 1];
+        soma += arr[max - 1][i][0];
+        soma += arr[max - 1][i][max - 1];
     }
+    printf("\nSoma das arestas: %d", soma);
 }
