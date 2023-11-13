@@ -33,16 +33,15 @@ int main(){
     // vertical e profundidade
     for (int i = 1; i < max - 1; i++) {
         // vertical
-        soma += arr[i][0][0];
-        soma += arr[i][0][max - 1];
-        soma += arr[i][max - 1][0];
-        soma += arr[i][max - 1][max - 1];
-
-        // profundidade
         soma += arr[0][i][0];
         soma += arr[0][i][max - 1];
         soma += arr[max - 1][i][0];
         soma += arr[max - 1][i][max - 1];
+        // profundidade
+        soma += arr[i][0][0];
+        soma += arr[i][0][max - 1];
+        soma += arr[i][max - 1][0];
+        soma += arr[i][max - 1][max - 1];
     }
     printf("\nSoma das arestas: %d", soma);
 }
