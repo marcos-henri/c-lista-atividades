@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <math.h>
+#include <math.h> //biblioteca de expressões matemáticas
 
 int main() {
     int n = 6;
