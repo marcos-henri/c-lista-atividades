@@ -56,5 +56,5 @@ int main(){
         printf("Resultado da multiplicação dos números entre 20 e 30: %d \n", prod20a30);
     }
     printf("Resultado da soma do quadrado dos números maiores que 16: %d \n", somaQuad);
-    return 0;   
+    system("pause"); 
 }

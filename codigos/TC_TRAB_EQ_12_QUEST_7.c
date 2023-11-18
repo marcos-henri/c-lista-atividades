@@ -52,4 +52,5 @@ int main(){
     printf("================================\n");
     printf("Esta operação tem %d número(s) complexo(s)\n", contCompx);
     printf("Delta é: %d\n", delta);
+    system("pause");
 }

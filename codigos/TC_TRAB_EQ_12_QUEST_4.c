@@ -33,6 +33,5 @@ int main(){
             printf("Não é primo.\n");
         }
     }
-    
-    
+    system("pause");
 }

@@ -46,26 +46,26 @@ int main(){
         }
         cont++;
     }
-        printf("Esta é a quantidade de números lidos: %d\n", cont);
+    printf("Esta é a quantidade de números lidos: %d\n", cont);
 
-        printf("=============================================\n");
+    printf("=============================================\n");
 
-        printf("Esta é a quantidade de números maiores que 100: %d\n", maiorQueCem);
+    printf("Esta é a quantidade de números maiores que 100: %d\n", maiorQueCem);
 
-        printf("=============================================\n");
+    printf("=============================================\n");
 
-        printf("Esta é a quantidade de números menores que 10: %d\n", menorQueDez);
+    printf("Esta é a quantidade de números menores que 10: %d\n", menorQueDez);
 
-        printf("=============================================\n");
+    printf("=============================================\n");
 
-        printf("Esta é a quantidade de vezes que o número 20 apareceu: %d\n", igualVinte);
+    printf("Esta é a quantidade de vezes que o número 20 apareceu: %d\n", igualVinte);
 
-        printf("=============================================\n");
+    printf("=============================================\n");
 
-        printf("Esta é a quantidade de vezes que o número 30 apareceu: %d\n", igualTrinta);
+    printf("Esta é a quantidade de vezes que o número 30 apareceu: %d\n", igualTrinta);
 
-        printf("=============================================\n");
+    printf("=============================================\n");
 
-        printf("Esta é a quantidade de vezes que o número 40 apareceu: %d\n", igualQuarenta);
-    return 0;
+    printf("Esta é a quantidade de vezes que o número 40 apareceu: %d\n", igualQuarenta);
+    system("pause");
 }

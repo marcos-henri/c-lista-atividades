@@ -25,4 +25,5 @@ int main(){
     }
     printf("A soma dos números é: %d\n", soma);
     printf("A quantidade de números lidos foi: %d", cont);
+    system("pause");
 }

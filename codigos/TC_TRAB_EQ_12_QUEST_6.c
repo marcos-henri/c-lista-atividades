@@ -21,5 +21,5 @@ int main(){
     
     printf("O produto dos números lidos é: %d\n", prod);
     printf("A soma dos quadrados dos números lidos é: %d\n", soma);
-    return 0;
+    system("pause");
 }

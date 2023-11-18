@@ -26,5 +26,5 @@ int main(){
     }
     printf("O produto de todos os números lidos é: %d\n", prodGeral);
     printf("A soma de todos os números lidos entre 2 e 100 e diferentes de 10, 20 e 32 é: %d\n", soma);
-    
+    system("pause");
 }

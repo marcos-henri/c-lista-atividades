@@ -65,4 +65,5 @@ int main(){
     printf("%d raíz(es) complexa(s)\n", contComplexo);
     printf("%d raíz(es) entre 5 e 10\n", contSoma);
     printf("%d raíz(es) menor(es) que 2\n", contMult);
+    system("pause");
 }
