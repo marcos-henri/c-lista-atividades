@@ -44,4 +44,5 @@ int main(){
         soma += arr[i][max - 1][max - 1];
     }
     printf("\nSoma das arestas: %d", soma);
+    return(0);
 }
