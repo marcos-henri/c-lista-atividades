@@ -31,4 +31,5 @@ int main(){
             printf("Projeto %d: %d\n", i, x);
         }
     }
+    return(0);
 }

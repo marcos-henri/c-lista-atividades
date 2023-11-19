@@ -51,4 +51,5 @@ int main() {
     for (int l = 0; l < i; l++) {
         printf("%d/%d/%d  ", dias[l], meses[l], anos[l]);
     }
+    return(0);
 }

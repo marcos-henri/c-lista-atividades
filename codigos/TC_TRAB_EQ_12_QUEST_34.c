@@ -56,4 +56,5 @@ int main(){
     } else {
         printf("O maior periodo de tempo em velocidade constante foram %d segundos",d);
     }
+    return(0);
 }
