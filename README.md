@@ -1,4 +1,7 @@
 # c-lista-atividades
+
+jsantos02061964@unijorge.pro.br
+
 Lista de atividades do professor Vicente sobre a linguagem C <br>
 1-8: Marcos<br>9-16: Marcos vini.<br>17-24: Marcell Henrique <br>25-32: Luiz Henrique <br>33-40: Manoel
 
