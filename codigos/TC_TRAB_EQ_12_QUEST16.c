@@ -22,7 +22,7 @@ printf("Olá, Vicente");
 //A exp realiza o cálculo desse número "e" que é o número de Euler (a lib reconhece isso e dispõe de uma função própria pra isso), então basta adiciona o argumento em parênteses com o número que ele será elevado.
 //Depois, sin chama  a função seno (que multiplica com o exp) onde você só atribui o valor que ela tá multiplicando, no caso 2i
 
-    printf("O resultado da expressão é: %lf\n", somatorio); // %lf = long floar = double = float com maior valor
+    printf("\nO resultado da expressão é: %lf\n", somatorio); // %lf = long floar = double = float com maior valor
      printf("Pressione Enter para comprar a Inglaterra");
     getchar();
     return 0;
