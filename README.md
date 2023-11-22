@@ -1,6 +1,6 @@
 # c-lista-atividades
 
-jsantos02061964@unijorge.pro.br
+
 
 Lista de atividades do professor Vicente sobre a linguagem C <br>
 1-8: Marcos<br>9-16: Marcos vini.<br>17-24: Marcell Henrique <br>25-32: Luiz Henrique <br>33-40: Manoel
@@ -64,13 +64,7 @@ int main() {
 
     if (totalAlunos > 0) {
         float mediaTurma = somaNotas / totalAlunos;
-        printf("\nMédia de notas da turma: %.2f\n", mediaTurma);
-    } else {
-        printf("\nNenhum aluno inserido.\n");
-    }
-
-    return 0;
-}```
+        printf("\nMédia de notas da turma: %.2f\n", mediaTurma)
 
 ![1](https://github.com/marcos-henri/c-lista-atividades/assets/112349436/096526d7-11fd-4526-8992-8d8e89a5670c)
 ![2](https://github.com/marcos-henri/c-lista-atividades/assets/112349436/cd2e2d0f-8968-48d9-aa66-d9ccd1caec37)
