@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <math.h>
-
 /*
 1- ler terno de numeros OK
 2- calcular equação do 2º grau OK
@@ -11,7 +10,6 @@
 4- finalizar quando o terno for nulo OK
 5- informar a quantidade de raizes complexas OK
 */
-
 int main(){
     int nums[3], contCompx=0, a, b, c, delta;
     float x1, x2, soma=0;

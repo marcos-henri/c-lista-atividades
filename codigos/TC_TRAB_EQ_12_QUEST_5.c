@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /*
 1- ler números OK
 2- imprimir a soma dos entre 2 e 100 e diferentes de 10, 20 e 32 OK
@@ -7,7 +6,6 @@
 4- finalizar quando for 0 OK
 5- imprimir o produto de todos os numeros lidos OK
 */
-
 int main(){
     int nums[100], soma=0, prod=1, prodGeral=1;
 

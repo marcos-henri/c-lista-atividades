@@ -1,13 +1,11 @@
 #include <stdio.h>
 #include <math.h>
-
 /*
 1- ler números
 2- informar se é primo ou não
 3- finalizar quando for 0
 4- indicar a quantidade de primos lidos
 */
-
 int main(){
     int num, sePrimo=0, contPrimo=0;
 

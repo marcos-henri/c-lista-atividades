@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /*
 1- ler números digitados - OK
 1.1- deixar o loop do tamanho do array automaticamente - OK
@@ -7,7 +6,6 @@
 3- imprimir soma dos números - OK
 4- imprimir a quantidade de números - OK
 */
-
 int main(){
     //criando as variáveis
     int nums[5], cont = 0, soma = 0, tam;

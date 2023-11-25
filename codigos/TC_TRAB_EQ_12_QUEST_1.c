@@ -11,7 +11,6 @@
 */
 int main(){
     int nums[100], cont = 0, maiorQueCem = 0, menorQueDez = 0, igualVinte = 0, igualTrinta = 0, igualQuarenta = 0;
-
     printf("Digite os números a serem lidos, diferentes de 0: \n");
     //loop para a leitura dos números
     for(int i=0; i<sizeof(nums)/sizeof(nums[0]); i++){
@@ -47,25 +46,15 @@ int main(){
         cont++;
     }
     printf("Esta é a quantidade de números lidos: %d\n", cont);
-
     printf("=============================================\n");
-
     printf("Esta é a quantidade de números maiores que 100: %d\n", maiorQueCem);
-
     printf("=============================================\n");
-
     printf("Esta é a quantidade de números menores que 10: %d\n", menorQueDez);
-
     printf("=============================================\n");
-
     printf("Esta é a quantidade de vezes que o número 20 apareceu: %d\n", igualVinte);
-
     printf("=============================================\n");
-
     printf("Esta é a quantidade de vezes que o número 30 apareceu: %d\n", igualTrinta);
-
     printf("=============================================\n");
-
     printf("Esta é a quantidade de vezes que o número 40 apareceu: %d\n", igualQuarenta);
     system("pause");
 }

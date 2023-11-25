@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /*
 1- ler sequência de números OK
 2- finalizar quando for 0 ou 14 ou 99 OK
@@ -9,7 +8,6 @@
 6- multiplicar os numeros entre 20 e 30 OK
 7- somar o quadrado dos maiores que 16 (x²) OK
 */
-
 int main(){
     int nums[100], cont=0, soma=0, somaGeral=0, mult=1, prod20a30=1, somaQuad=0;
     float media=0;
@@ -45,7 +43,6 @@ int main(){
             somaQuad += nums[i]*nums[i];
         }
     }
-
     printf("================================\n");
     printf("Resultado da soma dos números entre 50 e 150: %d \n", soma);
     printf("Resultado da média dos números : %f \n", media);
